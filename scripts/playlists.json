@@ -1,0 +1,74 @@
+{
+    "global": {
+        "2015": "playlist_id_2015_global",
+        "2016": "playlist_id_2016_global",
+        "2017": "playlist_id_2017_global",
+        "2018": "playlist_id_2018_global",
+        "2019": "playlist_id_2019_global",
+        "2020": "playlist_id_2020_global",
+        "2021": "playlist_id_2021_global",
+        "2022": "playlist_id_2022_global",
+        "2023": "playlist_id_2023_global",
+        "2024": "playlist_id_2024_global"
+    },
+    "usa": {
+        "2015": "playlist_id_2015_usa",
+        "2016": "playlist_id_2016_usa",
+        "2017": "playlist_id_2017_usa",
+        "2018": "playlist_id_2018_usa",
+        "2019": "playlist_id_2019_usa",
+        "2020": "playlist_id_2020_usa",
+        "2021": "playlist_id_2021_usa",
+        "2022": "playlist_id_2022_usa",
+        "2023": "playlist_id_2023_usa",
+        "2024": "playlist_id_2024_usa"
+    },
+    "france": {
+        "2015": "playlist_id_2015_fr",
+        "2016": "playlist_id_2016_fr",
+        "2017": "playlist_id_2017_fr",
+        "2018": "playlist_id_2018_fr",
+        "2019": "playlist_id_2019_fr",
+        "2020": "playlist_id_2020_fr",
+        "2021": "playlist_id_2021_fr",
+        "2022": "playlist_id_2022_fr",
+        "2023": "playlist_id_2023_fr",
+        "2024": "playlist_id_2024_fr"
+    },
+    "poland": {
+        "2015": "playlist_id_2015_poland",
+        "2016": "playlist_id_2016_poland",
+        "2017": "playlist_id_2017_poland",
+        "2018": "playlist_id_2018_poland",
+        "2019": "playlist_id_2019_poland",
+        "2020": "playlist_id_2020_poland",
+        "2021": "playlist_id_2021_poland",
+        "2022": "playlist_id_2022_poland",
+        "2023": "playlist_id_2023_poland",
+        "2024": "playlist_id_2024_poland"
+    },
+    "china": {
+        "2015": "playlist_id_2015_china",
+        "2016": "playlist_id_2016_china",
+        "2017": "playlist_id_2017_china",
+        "2018": "playlist_id_2018_china",
+        "2019": "playlist_id_2019_china",
+        "2020": "playlist_id_2020_china",
+        "2021": "playlist_id_2021_china",
+        "2022": "playlist_id_2022_china",
+        "2023": "playlist_id_2023_china",
+        "2024": "playlist_id_2024_china"
+    },
+    "india": {
+        "2015": "playlist_id_2015_india",
+        "2016": "playlist_id_2016_india",
+        "2017": "playlist_id_2017_india",
+        "2018": "playlist_id_2018_india",
+        "2019": "playlist_id_2019_india",
+        "2020": "playlist_id_2020_india",
+        "2021": "playlist_id_2021_india",
+        "2022": "playlist_id_2022_india",
+        "2023": "playlist_id_2023_india",
+        "2024": "playlist_id_2024_india"
+    }
+}
