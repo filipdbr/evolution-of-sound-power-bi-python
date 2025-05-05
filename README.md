@@ -1,13 +1,13 @@
-# Spotify Top 100 Songs Analysis (2014–2023)
+# Spotify Top 100 Songs Analysis (2015–2024)
 
-This project analyzes how popular music has evolved over the past decade by extracting the top 100 songs for each year (2014–2023) using Spotify's Web API. The dataset includes audio features like danceability, energy, valence, and tempo — enabling an exploration of trends in mood, genre, and sound over time.
+This project analyzes how popular music has evolved over the past decade by extracting the top 100 songs for each year (2015–2024) using Spotify's Web API. The dataset includes audio features like danceability, energy, valence, and tempo — enabling an exploration of trends in mood, genre, and sound over time.
 
 ## Author  
 Filip Dąbrowski*
 
 ## Project Objectives
 
-- Extract Spotify's top 100 songs per year (2014–2023)
+- Extract Spotify's top 100 songs per year (2015–2024)
 - Analyze changes in song characteristics and popularity across time
 - Visualize audio feature trends and genre shifts using Power BI
 
