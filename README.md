@@ -1,30 +1,56 @@
-# Spotify Top 100 Songs Analysis (2015–2024)
+# Music Industry Trends Analysis (2015–2024)
 
-This project analyzes how popular music has evolved over the past decade by extracting the top 100 songs for each year (2015–2024) using Spotify's Web API. The dataset includes audio features like danceability, energy, valence, and tempo — enabling an exploration of trends in mood, genre, and sound over time.
+This project explores how the global music industry has evolved over the past decade. It combines data from Spotify's Top 100 charts with additional context to uncover trends in genres, song characteristics, artist dynamics, release formats, and globalization of popular music.
+
+While Spotify serves as the primary data source for top tracks and audio features, the analysis aims to provide broader insights into music consumption and production patterns from 2015 to 2024.
 
 ## Author  
 Filip Dąbrowski*
 
 ## Project Objectives
 
-- Extract Spotify's top 100 songs per year (2015–2024)
-- Analyze changes in song characteristics and popularity across time
-- Visualize audio feature trends and genre shifts using Power BI
+- Analyze top songs from 2015–2024 to understand broader trends in music
+- Explore changes in genre popularity, song mood, and structure
+- Track the evolution of artists and the growing internationalization of music
+- Visualize and interpret the data through interactive Power BI dashboards
 
 ## Data Collection
 
-- Source: Spotify Web API
-- Method: Python script using the Spotipy library
-- Playlists: Yearly "Top 100" or "Top Hits" playlists curated by Spotify
-- Collected fields:
-  - Track name, artist, release year, popularity
-  - Audio features: danceability, energy, valence, tempo, and more
+- **Primary Source**: [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+- **Method**: Python script using the `Spotipy` library
+- **Playlists**: Yearly "Top 100" or "Top Hits" curated by Spotify
+
+Additional sources may be integrated to enrich context (e.g., lyrics, geography, album metadata)
 
 ## Tools and Technologies
 
 - Python (with Spotipy) for data extraction
 - Power BI for modeling and visualization
 - Git and GitHub for version control and documentation
+
+## Power BI Report Overview
+The report includes the following thematic pages:
+
+### 1. 📈 Music Trends Over Time  
+Genre share, mood evolution, song tempo and duration
+
+### 2. 👑 Top Artists and Style Evolution  
+Artist dominance, stylistic shifts, collaborations
+
+### 3. 🌍 Music Globalization  
+Artist origin, rise of regional genres, language share
+
+### 4. 🔍 What Makes a Hit?  
+Feature comparison between Top 10 vs. Top 100
+
+### 5. 💿 Singles, Albums, and Formats  
+Shift from albums to singles, track count, song length
+
+Status
+
+- [x] Spotify data extracted  
+- [ ] Power BI model designed  
+- [ ] Final dashboard in development
 
 ## Project Structure
 
@@ -47,3 +73,8 @@ spotify-top-100-analysis/                     # Raw and clean dataset
 ├── LICENSE                                   # MIT license
 ├── README.md                                 # Project documentation
 └── .gitignore                                # Files to ignore in Git
+```
+
+## License
+
+MIT License
