@@ -60,19 +60,19 @@ python data/billboard/get_billboard_data.py
 ## Power BI Report Overview
 The report includes the following thematic pages:
 
-### 1. 📈 Music Trends Over Time  
+### 1. Music Trends Over Time  
 Genre share, mood evolution, song tempo and duration
 
-### 2. 👑 Top Artists and Style Evolution  
+### 2. Top Artists and Style Evolution  
 Artist dominance, stylistic shifts, collaborations
 
-### 3. 🌍 Music Globalization  
+### 3. Music Globalization  
 Artist origin, rise of regional genres, language share
 
-### 4. 🔍 What Makes a Hit?  
+### 4. What Makes a Hit?  
 Feature comparison between Top 10 vs. Top 100
 
-### 5. 💿 Singles, Albums, and Formats  
+### 5. Singles, Albums, and Formats  
 Shift from albums to singles, track count, song length
 
 Status
