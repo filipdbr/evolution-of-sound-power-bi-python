@@ -1,11 +1,11 @@
 # Music Industry Trends Analysis (2015–2024)
 
-This project explores how the global music industry has evolved over the past decade. It combines data from Spotify's Top 100 charts with additional context to uncover trends in genres, song characteristics, artist dynamics, release formats, and globalization of popular music.
+This project explores how the global music industry has evolved over the past decade. It combines data from Spotify's Top 100 charts and Billboard Hot 100 with additional context to uncover trends in genres, song characteristics, artist dynamics, release formats, and globalization of popular music.
 
-While Spotify serves as the primary data source for top tracks and audio features, the analysis aims to provide broader insights into music consumption and production patterns from 2015 to 2024.
+*While Python scripts were used for initial data collection, the focus of this project is on Power BI analysis and visualization, with data cleaning performed directly in the BI tool.*
 
 ## Author  
-Filip Dąbrowski*
+Filip Dąbrowski
 
 ## Project Objectives
 
@@ -16,11 +16,40 @@ Filip Dąbrowski*
 
 ## Data Collection
 
-- **Primary Source**: [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
-- **Method**: Python script using the `Spotipy` library
-- **Playlists**: Yearly "Top 100" or "Top Hits" curated by Spotify
+### **Primary Sources**:
+1. [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+2. [Billboard Hot 100 Songs (Kaggle)](https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs)
 
-Additional sources may be integrated to enrich context (e.g., lyrics, geography, album metadata)
+### **Data Download**:
+- **Spotify**: Python script using `Spotipy` library (yearly "Top 100" playlists)
+- **Billboard**: Kaggle dataset downloaded via `kagglehub` with JSON API key
+
+### Configuration for Kaggle:
+The Billboard data is already included in this repository as a CSV, so **you don't need to configure Kaggle or download it**.
+
+However, if you ever need to download data from Kaggle here's the config:
+
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+
+2. Get the API key from your Kaggle Account → settings
+3. Configure Kaggle API:
+Add your JSON key to:
+`~/config/kaggle.json`
+
+    ```File structure should look like this: 
+    evolution-of-sound-power-bi/
+    ├── config/
+    │   └── kaggle.json
+    └── .env
+   ```
+
+3. Download data:
+```bash
+# Billboard data
+python data/billboard/get_billboard_data.py
+```
 
 ## Tools and Technologies
 
