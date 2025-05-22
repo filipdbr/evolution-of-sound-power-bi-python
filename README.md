@@ -77,7 +77,8 @@ Shift from albums to singles, track count, song length
 
 Status
 
-- [x] Spotify data extracted  
+- [x] Billboard dataset downloaded  
+- [ ] Spotify data extracted  
 - [ ] Power BI model designed  
 - [ ] Final dashboard in development
 
